@@ -1,11 +1,11 @@
 import './style.css'
 
-function Product() {
+function Header() {
     return (
         <div>
-            <h1>Product</h1>
+            <h1>Header</h1>
         </div>
     )
 }
 
-export default Product
+export default Header

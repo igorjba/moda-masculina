@@ -1,15 +1,15 @@
-import './style.css';
 import Header from '../../components/Header';
-import Product from '../../components/Product';
+import Products from '../../components/Products';
 import Footer from '../../components/Footer';
 import Modal from '../../components/Modal';
+import './style.css';
 
 function Main() {
   return (
     <div className="container">
       <Header />
       <div>
-        <Product />
+        <Products />
       </div>
       <Footer />
       <Modal />
