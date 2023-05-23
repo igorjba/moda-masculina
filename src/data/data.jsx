@@ -1,9 +1,9 @@
-import shoe1 from './assets/shoes/shoe1.jpg';
-import shoe2 from './assets/shoes/shoe2.jpg';
-import shoe3 from './assets/shoes/shoe3.jpg';
-import shoe4 from './assets/shoes/shoe4.jpg';
-import shoe5 from './assets/shoes/shoe5.jpg';
-import shoe6 from './assets/shoes/shoe6.jpg';
+import shoe1 from '../assets/shoes/shoe1.jpg';
+import shoe2 from '../assets/shoes/shoe2.jpg';
+import shoe3 from '../assets/shoes/shoe3.jpg';
+import shoe4 from '../assets/shoes/shoe4.jpg';
+import shoe5 from '../assets/shoes/shoe5.jpg';
+import shoe6 from '../assets/shoes/shoe6.jpg';
 
 const shoes = [
   {

@@ -1,0 +1,55 @@
+.container-product {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    height: 478px;
+    width: 322px;
+
+    cursor: pointer;
+}
+
+.container-product img {
+    width: 322px;
+    height: 322px;
+    margin-top: 20px;
+}
+
+.container-product:hover {
+    transform: scale(1.1);
+}
+
+.container-prices,
+.container-installments {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 200px;
+}
+
+.container-prices {
+    margin-top: 20px;
+}
+
+.container-prices span {
+    margin-right: 4px;
+
+    color: #ABA0A0;
+
+    text-decoration: line-through;
+    font-size: 12px;
+
+}
+
+
+.container-installments {
+    margin-top: 8px;
+}
+
+.container-installments span {
+    margin-left: 4px;
+
+    font-size: 12px;
+}
