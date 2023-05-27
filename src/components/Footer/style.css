@@ -44,6 +44,10 @@ footer {
     margin-right: 12px;
 }
 
+.container-social img:hover {
+    cursor: pointer;
+}
+
 .right-footer {
     display: flex;
     align-items: center;
@@ -54,4 +58,8 @@ footer {
 
 .right-footer img {
     width: 250px;
+}
+
+.right-footer img:hover {
+    cursor: pointer;
 }

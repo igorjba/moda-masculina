@@ -29,6 +29,10 @@ header h2 {
     margin-bottom: 80px;
 }
 
+header img:hover {
+    cursor: pointer;
+}
+
 .logo {
     width: 160px;
     position: absolute;

@@ -9,6 +9,17 @@ import { useState } from 'react';
 function Main() {
 
   const [products, setProducts] = useState([...shoes])
+  const [open, setOpen] = useState(false)
+  const [currentProduct, setCurrentProduct] = useState({})
+
+  const handleDetailProduct = (product) => {
+    setOpen(true)
+    setCurrentProduct(product)
+  }
+
+  const handleClose = () => {
+    setOpen(false)
+  }
 
   return (
     <div className="container">
@@ -18,11 +29,16 @@ function Main() {
           <Product
             key={product.id}
             item={product}
+            handleDetailProduct={handleDetailProduct}
           />
         ))}
       </div>
       <Footer />
-      <Modal />
+      <Modal
+        open={open}
+        handleClose={handleClose}
+        product={currentProduct}
+      />
     </div>
   );
 }

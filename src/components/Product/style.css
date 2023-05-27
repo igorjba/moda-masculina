@@ -1,4 +1,4 @@
-.container-product {
+.content-product {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -10,12 +10,12 @@
     cursor: pointer;
 }
 
-.container-product img {
+.content-product img {
     width: 322px;
     height: 322px;
     margin-top: 20px;
 }
 
-.container-product:hover {
+.content-product:hover {
     transform: scale(1.1);
 }

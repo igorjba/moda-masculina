@@ -1,9 +1,12 @@
 import './style.css'
 import { handleCalculateInstallments } from '../../utils/functions';
 
-function Product({ item }) {
+function Product({ item, handleDetailProduct }) {
     return (
-        <div className='content-product'>
+        <div
+            className='content-product'
+            onClick={() => handleDetailProduct(item)}
+        >
             <img src={item.image} alt='Product' />
             <span>{item.name}</span>
             <div className='content-prices'>
