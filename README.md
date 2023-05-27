@@ -9,7 +9,7 @@
 
 ## Como visualizar o projeto
 
-Para visualizar o projeto, basta acessar o link: [https://portfolio-igorjba.vercel.app/pages/home/index.html](https://portfolio-igorjba.vercel.app/pages/home/index.html)
+Para visualizar o projeto, basta acessar o link: [https://moda-masculina.vercel.app](https://moda-masculina.vercel.app)
 
 ## Sobre
 
