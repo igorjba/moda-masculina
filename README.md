@@ -27,8 +27,6 @@ No entanto, é importante observar que este projeto ainda não possui uma implem
 
 ## Páginas do projeto
 
-## Páginas do projeto
-
 ### Header
 
 - Header ![](https://i.ibb.co/JrsnyrJ/calcado-header.jpg "Header")
